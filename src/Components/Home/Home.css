@@ -1,0 +1,24 @@
+/* baneer css */
+
+.react-multi-carousel-list{
+
+    margin-top: 27px;
+    box-sizing: border-box;
+    border: 35px solid black;
+    border-radius: 52px;
+    width: 150vh;
+
+
+}
+
+.Home_Banner{
+
+    display: flex;
+    justify-content: space-around;
+
+    padding:0px 80px;
+}
+
+
+
+
