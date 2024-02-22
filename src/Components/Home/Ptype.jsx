@@ -36,7 +36,11 @@ const Ptype = () => {
                         <Productcategory
 
                         key={item.text}
-                        to={`/${item.text.toLowerCase().replace(/\s/g, '')}`}
+                        to={
+                            item.text.toLowerCase() === 'fashion'
+                              ? '/fashion'  // Set the correct path for the "Fashion" category
+                              : `/${item.text.toLowerCase().replace(/\s/g, '')}`
+                          }
                         imgSrc={item.url}
                         heading={item.text}
 
